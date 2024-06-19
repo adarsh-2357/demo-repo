@@ -18,13 +18,14 @@ int main(){
     int n,element,target;
     cout <<"Enter thr number of ele\n";
     cin>> n;
-    cout << "Enter a Valid Target:\n";
-    cin>>target;
     cout << "Enter array elments:\n";
     for(int i=0;i<n;i++){
         cin>>element;
         arr.push_back(element);
     }
+    cout << "Enter a Valid Target:\n";
+    cin>>target;
+    
     targetSum(arr,target);
     return 0;
 }
